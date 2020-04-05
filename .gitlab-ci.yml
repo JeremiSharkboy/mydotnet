@@ -1,12 +1,12 @@
 build:dotnetcore:
-  image: microsoft/dotnet:latest
+  image: mcr.microsoft.com/dotnet/core/sdk:5.0
   script:
     - dotnet --info
     - dotnet restore --verbosity detailed
     - dotnet build --verbosity detailed
 
 test:dotnetcore:
-   image: microsoft/dotnet:latest
+   image: mcr.microsoft.com/dotnet/core/sdk:5.0
    script:
      - cd MyXunitTests
      - dotnet --info
