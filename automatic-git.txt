@@ -1,0 +1,514 @@
+PowerShell 7.0.0
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+https://aka.ms/powershell
+Type 'help' to get help.
+
+PS C:\Users\hadak\Documents\source\mydotnet> pwd
+
+Path
+----
+C:\Users\hadak\Documents\source\mydotnet
+
+PS C:\Users\hadak\Documents\source\mydotnet> date
+
+Sunday, April 5, 2020 7:11:47 AM
+
+PS C:\Users\hadak\Documents\source\mydotnet> date | Out-File -Append date.txt
+PS C:\Users\hadak\Documents\source\mydotnet> date | Out-File -Append date.txt
+PS C:\Users\hadak\Documents\source\mydotnet> cd "C:\Users\hadak\Documents\source\mydotnet"; date | Out-File -Append date.txt; git add .; git commit -m "add current date";
+[master 787ebbd] add current date
+ 1 file changed, 3 insertions(+)
+ create mode 100644 date.txt
+PS C:\Users\hadak\Documents\source\mydotnet> cd "C:\Users\hadak\Documents\source\mydotnet"; date | Out-File -Append date.txt; git add .; git commit -m "add current date"; Start-Sleep 5;
+[master 642dcde] add current date
+ 1 file changed, 3 insertions(+)
+PS C:\Users\hadak\Documents\source\mydotnet> While ($True) { cd "C:\Users\hadak\Documents\source\mydotnet"; date | Out-File -Append date.txt; git add .; git commit -m "add current date"; Start-Sleep 5; } 
+
+[master 3c0d3e6] add current date
+ 1 file changed, 3 insertions(+)
+[master 5d525ad] add current date
+ 1 file changed, 3 insertions(+)
+[master ccb8370] add current date
+ 1 file changed, 3 insertions(+)
+[master eb1bd15] add current date
+ 1 file changed, 3 insertions(+)
+[master 941364d] add current date
+ 1 file changed, 3 insertions(+)
+[master 640adc3] add current date
+ 1 file changed, 3 insertions(+)
+[master 7d710f1] add current date
+ 1 file changed, 3 insertions(+)
+[master d069d93] add current date
+ 1 file changed, 3 insertions(+)
+[master 4c6c31f] add current date
+ 1 file changed, 3 insertions(+)
+[master 8355523] add current date
+ 1 file changed, 3 insertions(+)
+[master beb3310] add current date
+ 1 file changed, 3 insertions(+)
+[master feea5b4] add current date
+ 1 file changed, 3 insertions(+)
+[master a843e3e] add current date
+ 1 file changed, 3 insertions(+)
+[master dcdb3fa] add current date
+ 1 file changed, 3 insertions(+)
+[master d713d1b] add current date
+ 1 file changed, 3 insertions(+)
+[master c507470] add current date
+ 1 file changed, 3 insertions(+)
+[master 8aa40e6] add current date
+ 1 file changed, 3 insertions(+)
+[master 1a3604d] add current date
+ 1 file changed, 3 insertions(+)
+[master 150516c] add current date
+ 1 file changed, 3 insertions(+)
+[master 1ce239e] add current date
+ 1 file changed, 3 insertions(+)
+[master 751db16] add current date
+ 1 file changed, 3 insertions(+)
+[master f67e7b1] add current date
+ 1 file changed, 3 insertions(+)
+[master e0e205d] add current date
+ 1 file changed, 3 insertions(+)
+[master 4fb01cf] add current date
+ 1 file changed, 3 insertions(+)
+[master 91bff1b] add current date
+ 1 file changed, 3 insertions(+)
+[master edded8e] add current date
+ 1 file changed, 3 insertions(+)
+[master ed2d79b] add current date
+ 1 file changed, 3 insertions(+)
+[master aa14e55] add current date
+ 1 file changed, 3 insertions(+)
+[master af52ba1] add current date
+ 1 file changed, 3 insertions(+)
+[master ac991ae] add current date
+ 1 file changed, 3 insertions(+)
+[master 8e42ce5] add current date
+ 1 file changed, 3 insertions(+)
+[master 486e608] add current date
+ 1 file changed, 3 insertions(+)
+[master 19a7bed] add current date
+ 1 file changed, 3 insertions(+)
+[master e7e17d8] add current date
+ 1 file changed, 3 insertions(+)
+[master 3c39776] add current date
+ 1 file changed, 3 insertions(+)
+[master 955bcc8] add current date
+ 1 file changed, 3 insertions(+)
+[master 9dc3e14] add current date
+ 1 file changed, 3 insertions(+)
+[master 5768e5a] add current date
+ 1 file changed, 3 insertions(+)
+[master 8adb998] add current date
+ 1 file changed, 3 insertions(+)
+[master 70d7386] add current date
+ 1 file changed, 3 insertions(+)
+[master d34ebec] add current date
+ 1 file changed, 3 insertions(+)
+[master 7cd57d4] add current date
+ 1 file changed, 3 insertions(+)
+[master e8272fb] add current date
+ 1 file changed, 3 insertions(+)
+[master 79b46af] add current date
+ 1 file changed, 3 insertions(+)
+[master 158de45] add current date
+ 1 file changed, 3 insertions(+)
+[master cc0e313] add current date
+ 1 file changed, 3 insertions(+)
+[master faecfdc] add current date
+ 1 file changed, 3 insertions(+)
+[master 3ff89bb] add current date
+ 1 file changed, 3 insertions(+)
+[master cb4b4f4] add current date
+ 1 file changed, 3 insertions(+)
+[master 1c101bd] add current date
+ 1 file changed, 3 insertions(+)
+[master ad10227] add current date
+ 1 file changed, 3 insertions(+)
+[master 5410aae] add current date
+ 1 file changed, 3 insertions(+)
+[master 56023b1] add current date
+ 1 file changed, 3 insertions(+)
+[master 4c403e3] add current date
+ 1 file changed, 3 insertions(+)
+[master 5d6fa62] add current date
+ 1 file changed, 3 insertions(+)
+[master 8be0098] add current date
+ 1 file changed, 3 insertions(+)
+[master 18f0f0c] add current date
+ 1 file changed, 3 insertions(+)
+[master 968de11] add current date
+ 1 file changed, 3 insertions(+)
+[master 5a25c92] add current date
+ 1 file changed, 3 insertions(+)
+[master 27187a4] add current date
+ 1 file changed, 3 insertions(+)
+[master a0b45e7] add current date
+ 1 file changed, 3 insertions(+)
+[master 265a81f] add current date
+ 1 file changed, 3 insertions(+)
+[master 85ce47b] add current date
+ 1 file changed, 3 insertions(+)
+[master 1a7a534] add current date
+ 1 file changed, 3 insertions(+)
+[master 7194e3f] add current date
+ 1 file changed, 3 insertions(+)
+[master 4807db9] add current date
+ 1 file changed, 3 insertions(+)
+[master 461ccd6] add current date
+ 1 file changed, 3 insertions(+)
+[master 7943bb6] add current date
+ 1 file changed, 3 insertions(+)
+[master 3a3f577] add current date
+ 1 file changed, 3 insertions(+)
+[master d296716] add current date
+ 1 file changed, 3 insertions(+)
+[master ec81563] add current date
+ 1 file changed, 3 insertions(+)
+[master 060f432] add current date
+ 1 file changed, 3 insertions(+)
+[master bfcdf66] add current date
+ 1 file changed, 3 insertions(+)
+[master bfb5e86] add current date
+ 1 file changed, 3 insertions(+)
+[master 062ede4] add current date
+ 1 file changed, 3 insertions(+)
+[master edccd75] add current date
+ 1 file changed, 3 insertions(+)
+[master c6749d2] add current date
+ 1 file changed, 3 insertions(+)
+[master 1598bc2] add current date
+ 1 file changed, 3 insertions(+)
+[master 48ae5df] add current date
+ 1 file changed, 3 insertions(+)
+[master 71f9d9e] add current date
+ 1 file changed, 3 insertions(+)
+[master c675e14] add current date
+ 1 file changed, 3 insertions(+)
+[master ce85335] add current date
+ 1 file changed, 3 insertions(+)
+[master 4057f86] add current date
+ 1 file changed, 3 insertions(+)
+[master c82e46d] add current date
+ 1 file changed, 3 insertions(+)
+[master 9dd48b6] add current date
+ 1 file changed, 3 insertions(+)
+[master 109665b] add current date
+ 1 file changed, 3 insertions(+)
+[master 04309ab] add current date
+ 1 file changed, 3 insertions(+)
+[master 490b75c] add current date
+ 1 file changed, 3 insertions(+)
+[master 5b17025] add current date
+ 1 file changed, 3 insertions(+)
+[master 7741efc] add current date
+ 1 file changed, 3 insertions(+)
+[master ee4799a] add current date
+ 1 file changed, 3 insertions(+)
+[master cce5bd9] add current date
+ 1 file changed, 3 insertions(+)
+[master ec439e1] add current date
+ 1 file changed, 3 insertions(+)
+[master fb9ca90] add current date
+ 1 file changed, 3 insertions(+)
+[master 02b7268] add current date
+ 1 file changed, 3 insertions(+)
+[master 9274842] add current date
+ 1 file changed, 3 insertions(+)
+[master 0dd951e] add current date
+ 1 file changed, 3 insertions(+)
+[master c02122d] add current date
+ 1 file changed, 3 insertions(+)
+[master dc9ffc1] add current date
+ 1 file changed, 3 insertions(+)
+[master 4f6cbcb] add current date
+ 1 file changed, 3 insertions(+)
+[master adcf982] add current date
+ 1 file changed, 3 insertions(+)
+[master 347578d] add current date
+ 1 file changed, 3 insertions(+)
+[master 36473cb] add current date
+ 1 file changed, 3 insertions(+)
+[master 44296eb] add current date
+ 1 file changed, 3 insertions(+)
+[master d67891f] add current date
+ 1 file changed, 3 insertions(+)
+[master a15fbd6] add current date
+ 1 file changed, 3 insertions(+)
+[master 146f03d] add current date
+ 1 file changed, 3 insertions(+)
+[master 7cc9a08] add current date
+ 1 file changed, 3 insertions(+)
+[master bcb5100] add current date
+ 1 file changed, 3 insertions(+)
+[master 415d61a] add current date
+ 1 file changed, 3 insertions(+)
+[master b462c98] add current date
+ 1 file changed, 3 insertions(+)
+[master 2e9e0a8] add current date
+ 1 file changed, 3 insertions(+)
+[master 43a3833] add current date
+ 1 file changed, 3 insertions(+)
+[master e96aa84] add current date
+ 1 file changed, 3 insertions(+)
+[master 639bac2] add current date
+ 1 file changed, 3 insertions(+)
+[master 77866ef] add current date
+ 1 file changed, 3 insertions(+)
+[master 503b50e] add current date
+ 1 file changed, 3 insertions(+)
+[master c31ca8b] add current date
+ 1 file changed, 3 insertions(+)
+[master fc8b4e7] add current date
+ 1 file changed, 3 insertions(+)
+[master 14de789] add current date
+ 1 file changed, 3 insertions(+)
+[master d85163f] add current date
+ 1 file changed, 3 insertions(+)
+[master 3340944] add current date
+ 1 file changed, 3 insertions(+)
+[master 2124c9a] add current date
+ 1 file changed, 3 insertions(+)
+[master 231b9e8] add current date
+ 1 file changed, 3 insertions(+)
+[master 8ccf906] add current date
+ 1 file changed, 3 insertions(+)
+[master 1f8e05d] add current date
+ 1 file changed, 3 insertions(+)
+[master 3fd534f] add current date
+ 1 file changed, 3 insertions(+)
+[master d63543d] add current date
+ 1 file changed, 3 insertions(+)
+[master a569ed5] add current date
+ 1 file changed, 3 insertions(+)
+[master 82a3781] add current date
+ 1 file changed, 3 insertions(+)
+[master b2d02c3] add current date
+ 1 file changed, 3 insertions(+)
+[master a2a0c7e] add current date
+ 1 file changed, 3 insertions(+)
+[master 701fe41] add current date
+ 1 file changed, 3 insertions(+)
+[master a9191cc] add current date
+ 1 file changed, 3 insertions(+)
+[master 85463c3] add current date
+ 1 file changed, 3 insertions(+)
+[master 4f1dceb] add current date
+ 1 file changed, 3 insertions(+)
+[master fb9f74d] add current date
+ 1 file changed, 3 insertions(+)
+[master ff9300e] add current date
+ 1 file changed, 3 insertions(+)
+[master c445ed2] add current date
+ 1 file changed, 3 insertions(+)
+[master d58f9f3] add current date
+ 1 file changed, 3 insertions(+)
+[master de6f6a2] add current date
+ 1 file changed, 3 insertions(+)
+[master 575e751] add current date
+ 1 file changed, 3 insertions(+)
+[master 9bddce8] add current date
+ 1 file changed, 3 insertions(+)
+[master 05e0900] add current date
+ 1 file changed, 3 insertions(+)
+[master cdd21ff] add current date
+ 1 file changed, 3 insertions(+)
+[master 96b0b38] add current date
+ 1 file changed, 3 insertions(+)
+[master 896e0d9] add current date
+ 1 file changed, 3 insertions(+)
+[master 4f95f2f] add current date
+ 1 file changed, 3 insertions(+)
+[master 63a2b76] add current date
+ 1 file changed, 3 insertions(+)
+[master 39b769e] add current date
+ 1 file changed, 3 insertions(+)
+[master d1c77a5] add current date
+ 1 file changed, 3 insertions(+)
+[master 559da20] add current date
+ 1 file changed, 3 insertions(+)
+[master b83d49a] add current date
+ 1 file changed, 3 insertions(+)
+[master 6b725f0] add current date
+ 1 file changed, 3 insertions(+)
+[master ab9e6aa] add current date
+ 1 file changed, 3 insertions(+)
+[master b60708e] add current date
+ 1 file changed, 3 insertions(+)
+[master 3c2fa37] add current date
+ 1 file changed, 3 insertions(+)
+[master 4434d60] add current date
+ 1 file changed, 3 insertions(+)
+[master ef66273] add current date
+ 1 file changed, 3 insertions(+)
+[master 40735ea] add current date
+ 1 file changed, 3 insertions(+)
+[master 1cf33bf] add current date
+ 1 file changed, 3 insertions(+)
+[master b0dd8eb] add current date
+ 1 file changed, 3 insertions(+)
+[master fdf5e87] add current date
+ 1 file changed, 3 insertions(+)
+[master b82d55d] add current date
+ 1 file changed, 3 insertions(+)
+[master a3424dc] add current date
+ 1 file changed, 3 insertions(+)
+[master 11000db] add current date
+ 1 file changed, 3 insertions(+)
+[master 7ad87a9] add current date
+ 1 file changed, 3 insertions(+)
+[master 59c95b1] add current date
+ 1 file changed, 3 insertions(+)
+[master 85322f4] add current date
+ 1 file changed, 3 insertions(+)
+[master 8cc30bb] add current date
+ 1 file changed, 3 insertions(+)
+[master 4541a32] add current date
+ 1 file changed, 3 insertions(+)
+[master 38cbb23] add current date
+ 1 file changed, 3 insertions(+)
+[master e45e61a] add current date
+ 1 file changed, 3 insertions(+)
+[master 9948b6c] add current date
+ 1 file changed, 3 insertions(+)
+[master 6352595] add current date
+ 1 file changed, 3 insertions(+)
+[master c412a7f] add current date
+ 1 file changed, 3 insertions(+)
+[master 0275214] add current date
+ 1 file changed, 3 insertions(+)
+[master fe15ef4] add current date
+ 1 file changed, 3 insertions(+)
+[master 1985a83] add current date
+ 1 file changed, 3 insertions(+)
+[master 09f8304] add current date
+ 1 file changed, 3 insertions(+)
+[master 5acac9f] add current date
+ 1 file changed, 3 insertions(+)
+[master b0ffc88] add current date
+ 1 file changed, 3 insertions(+)
+[master 4526a07] add current date
+ 1 file changed, 3 insertions(+)
+[master 86f18d1] add current date
+ 1 file changed, 3 insertions(+)
+[master 8ec4976] add current date
+ 1 file changed, 3 insertions(+)
+[master dde22bd] add current date
+ 1 file changed, 3 insertions(+)
+[master dc953d5] add current date
+ 1 file changed, 3 insertions(+)
+[master 5353ba4] add current date
+ 1 file changed, 3 insertions(+)
+[master 3bad717] add current date
+ 1 file changed, 3 insertions(+)
+[master 992b923] add current date
+ 1 file changed, 3 insertions(+)
+[master 0cc22e1] add current date
+ 1 file changed, 3 insertions(+)
+[master 9790bba] add current date
+ 1 file changed, 3 insertions(+)
+[master 33ae579] add current date
+ 1 file changed, 3 insertions(+)
+[master 51cd820] add current date
+ 1 file changed, 3 insertions(+)
+[master 511efa2] add current date
+ 1 file changed, 3 insertions(+)
+[master a17c48c] add current date
+ 1 file changed, 3 insertions(+)
+[master c273a30] add current date
+ 1 file changed, 3 insertions(+)
+[master 4db9012] add current date
+ 1 file changed, 3 insertions(+)
+[master 2849ed6] add current date
+ 1 file changed, 3 insertions(+)
+[master 8793675] add current date
+ 1 file changed, 3 insertions(+)
+[master 1b733b3] add current date
+ 1 file changed, 3 insertions(+)
+[master 88afb36] add current date
+ 1 file changed, 3 insertions(+)
+[master 68f0392] add current date
+ 1 file changed, 3 insertions(+)
+[master a4a986d] add current date
+ 1 file changed, 3 insertions(+)
+[master f1796bc] add current date
+ 1 file changed, 3 insertions(+)
+[master db0298a] add current date
+ 1 file changed, 3 insertions(+)
+[master 25dec91] add current date
+ 1 file changed, 3 insertions(+)
+[master bcd102e] add current date
+ 1 file changed, 3 insertions(+)
+[master e56889a] add current date
+ 1 file changed, 3 insertions(+)
+[master 9e6fc32] add current date
+ 1 file changed, 3 insertions(+)
+[master 0edf5d7] add current date
+ 1 file changed, 3 insertions(+)
+[master 118f09c] add current date
+ 1 file changed, 3 insertions(+)
+[master 02565e3] add current date
+ 1 file changed, 3 insertions(+)
+[master 03cb606] add current date
+ 1 file changed, 3 insertions(+)
+[master 372c1e8] add current date
+ 1 file changed, 3 insertions(+)
+[master 09b5294] add current date
+ 1 file changed, 3 insertions(+)
+[master 5452ce9] add current date
+ 1 file changed, 3 insertions(+)
+[master 1c8bf64] add current date
+ 1 file changed, 3 insertions(+)
+[master d3927c4] add current date
+ 1 file changed, 3 insertions(+)
+[master 40af9c2] add current date
+ 1 file changed, 3 insertions(+)
+[master 0e69340] add current date
+ 1 file changed, 3 insertions(+)
+[master 1f2857d] add current date
+ 1 file changed, 3 insertions(+)
+[master 9683c4f] add current date
+ 1 file changed, 3 insertions(+)
+[master 0c86269] add current date
+ 1 file changed, 3 insertions(+)
+[master 75cc84c] add current date
+ 1 file changed, 3 insertions(+)
+[master 024a0f5] add current date
+ 1 file changed, 3 insertions(+)
+[master d2bb33e] add current date
+ 1 file changed, 3 insertions(+)
+[master 1b7629b] add current date
+ 1 file changed, 3 insertions(+)
+[master dccf7e9] add current date
+ 1 file changed, 3 insertions(+)
+[master 5ff9945] add current date
+ 1 file changed, 3 insertions(+)
+[master a2a80ab] add current date
+ 1 file changed, 3 insertions(+)
+[master 65b71c3] add current date
+ 1 file changed, 3 insertions(+)
+[master 2103855] add current date
+ 1 file changed, 3 insertions(+)
+[master f357a5d] add current date
+ 1 file changed, 3 insertions(+)
+[master 4952f8e] add current date
+ 1 file changed, 3 insertions(+)
+[master ef9391c] add current date
+ 1 file changed, 3 insertions(+)
+[master 65c8d55] add current date
+ 1 file changed, 3 insertions(+)
+[master 7c421f5] add current date
+ 1 file changed, 3 insertions(+)
+[master 2f0d86d] add current date
+ 1 file changed, 3 insertions(+)
+[master 19e3aff] add current date
+ 1 file changed, 3 insertions(+)
+[master d3edf42] add current date
+ 1 file changed, 3 insertions(+)
+[master f67db90] add current date
+ 1 file changed, 3 insertions(+)
+[master ec84ffc] add current date
+ 1 file changed, 3 insertions(+)
+PS C:\Users\hadak\Documents\source\mydotnet> 
