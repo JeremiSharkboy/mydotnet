@@ -1,0 +1,14 @@
+build:dotnetcore:
+  image: microsoft/dotnet:latest
+  script:
+    - dotnet --info
+    - dotnet restore --verbosity detailed
+    - dotnet build --verbosity detailed
+
+test:dotnetcore:
+   image: microsoft/dotnet:latest
+   script:
+     - cd MyXunitTests
+     - dotnet --info
+     - dotnet restore --verbosity detailed
+     - dotnet test --verbosity detailed
